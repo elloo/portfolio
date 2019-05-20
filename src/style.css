@@ -1,0 +1,200 @@
+/************/
+/* GENERAL */
+/***********/
+
+body {
+    background: #E0C1B3;
+}
+
+section {
+    position: relative;
+    margin-top: 5vh;
+    height: 92vh;
+}
+
+main {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: -4vh;
+    padding: 10px;
+    color: #F4FFF8;
+    border-radius: 0 50% 0 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+
+header {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    width: 50%;
+}
+
+header h1 {
+    position: absolute;
+    font-family: 'Dr Sugiyama', cursive;
+    color: #F4FFF8;
+    font-size: 6em;
+    margin-top: 5%;
+}
+
+h2 {
+    font-family: 'Dr Sugiyama', cursive;
+    color: #5F635C;  
+}
+
+p {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: #F4FFF8;
+}
+
+img {
+    border: solid 10px #F4FFF8;
+}
+
+
+
+/**********/
+/* ABOUT */
+/*********/
+
+#about {
+    position: absolute;
+    background: #D89A9E;
+    width: 125vh;
+    left: 0;
+    z-index:3
+}
+
+#about nav {
+    position: absolute;
+    right: 0;
+    background: #D89A9E; 
+    border-radius: 0 50% 0 0;
+    text-transform: uppercase;
+}
+
+#about h2 {
+    position: absolute;
+    top: 27.5%;
+    left: 5%;
+}
+
+#about main {
+    background: #F4FFF8;
+    height: 70%;
+    position: absolute;
+    width: 47.5%;
+    margin: 1%;
+}
+
+#about aside img {
+    position: absolute;
+    width: 30%; 
+}
+
+#about aside figure figcaption {
+    position: absolute;
+    transform: rotate(-10deg);
+    width: 40%;
+    bottom: 48%;
+    right: 0%;
+}
+
+#city0 {
+    transform: rotate(30deg);
+    top: 5%;
+    right: 10%;
+}
+
+#city1 {
+    transform: rotate(-10deg);
+    bottom: 45%;
+    right: 10%;
+}
+
+#about main p {
+    left: 10%;
+    color: #5F635C;
+    padding: 10px;
+}
+
+#about header p {
+    top: 20%;
+    left: 15%;
+}
+
+
+/*************/
+/* PORTFOLIO */
+/*************/
+
+#portfolio {
+    position: absolute;
+    background: #C37D92;
+    width: 140vh;
+    left: 0;
+    z-index: 2;
+}
+
+#portfolio nav {
+    background: #C37D92;
+}
+
+#portfolio main {
+    display: flex;
+}
+
+#portfolio aside p {
+    position: absolute;
+    background: #F4FFF8;
+    color: #5F635C;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    height: 45%;
+    padding: 10px;
+    margin: 5%;
+    transform: rotate(-5deg);
+    bottom: 0;
+}
+
+
+
+
+/***********/
+/* CONTACT */
+/***********/
+
+#contact {
+    position: absolute;
+    background: #846267;
+    width: 155vh;
+    left: 0;
+    z-index: 1;
+}
+
+#contact nav {
+    background: #846267;
+}
+
+
+
+/********/
+/* GRID */
+/********/
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "header aside"
+    "content aside"
+}
