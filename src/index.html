@@ -7,11 +7,13 @@
     <title>Ewe Lin's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Dr+Sugiyama|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <div id="container">
-        <nav id="navAbout" onclick="focusAbout()">About</nav>
+        <nav id="navAbout" onclick="focusAbout()"><a href="#about">About</a></nav>
         <section id="about" onclick="focusAbout()">
             <header>
                 <p>Hi! I'm</p>
@@ -21,19 +23,47 @@
                 <figure>
                     <img src="images/suncity0.png" alt="City image generated with Processing" id="city0">
                     <img src="images/suncity1.png" alt="City image generated with Processing" id="city1">
-                    <figcaption><p>Generative art made in Processing</p></figcaption>
+                    <figcaption>Generative art made in Processing</figcaption>
                 </figure>
             </aside>
             <main>
                 <p>
-                    I've been tea 'n' tinkering with HTML and CSS since high school. My love of technology then grew at UNSW, where I was exposed to creative coding. Today, I'm a full-stack developer with an education in digital media and UX design.
+                    My full name is Ewe Lin Loo. I've been tea 'n' tinkering with HTML and CSS since high school. My love of technology then grew at UNSW, where I was exposed to creative coding. Today, I'm a full-stack developer with an education in digital media and UX design.
                 </p>
                 <h2>History</h2>
+                <table>
+                    <tr>
+                        <td>2014</td>
+                        <td>Graduated UNSW (B. Digital Media)</td>
+                    </tr>
+                    <tr>
+                        <td>2014-2016</td>
+                        <td>Worked retail at Target</td>
+                    </tr>
+                    <tr>
+                        <td>2016-2018</td>
+                        <td>Worked as a captioner at Ai-Media</td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Studied UX design at Academy Xi</td>
+                    </tr>
+                    <tr>
+                        <td>2019-2020</td>
+                        <td>Studying web dev at Coder Academy</td>
+                    </tr>
+                </table>
+                <h2>Skills</h2>
+                <div id="skills-icons">
+                    <i class="devicon-html5-plain-wordmark"></i>
+                    <i class="devicon-css3-plain-wordmark"></i>
+                    <i class="devicon-ruby-plain-wordmark"></i>
+                </div>
             </main>
         </section>
 
 
-        <nav id="navPortfolio" onclick="focusPortfolio()">Portfolio</nav>
+        <nav id="navPortfolio" onclick="focusPortfolio()"><a href="#portfolio">Portfolio</a></nav>
         <section id="portfolio" onclick="focusPortfolio()">
             <header>
                 <h1>Portfolio</h1>
@@ -62,11 +92,26 @@
         </section>
 
 
-        <nav id="navContact" onclick="focusContact()">Contact</nav>
+        <nav id="navContact" onclick="focusContact()"><a href="#contact">Contact</a></nav>
         <section id="contact" onclick="focusContact()">
             <header>
                 <h1>Contact</h1>
             </header>
+            <main>
+                <p>Email: ewelinloo@gmail.com</p>
+                <p>
+                    <a href="https://twitter.com/ewelinloo"><i class="fab fa-twitter fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/ewelinloo/"><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a href="https://medium.com/@EweLinLoo"><i class="fab fa-medium fa-3x"></i></a>
+                    <a href="https://github.com/elloo"><i class="fab fa-github fa-3x"></i></a>
+                </p>
+                <img src="images/bear.png" alt="CSS bear" id="bear">
+                <img src="images/beaver.png" alt="CSS beaver" id="beaver">
+                <figure>
+                    <img src="images/elephant.png" alt="CSS elephant" id="elephant">
+                    <figcaption>Pure CSS Images</figcaption>
+                </figure>
+            </main>
         </section>
     </div>
 </body>
