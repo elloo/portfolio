@@ -168,12 +168,10 @@ nav {
 
 #city0 {
     transform: rotate(17deg);
-    transition: transform .25s ease-in-out;
 }
 
 #city1 {
     transform: rotate(-10deg);
-    transition: transform .25s ease-in-out;
 }
 
 #city0:hover,

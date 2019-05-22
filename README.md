@@ -1,6 +1,6 @@
 # My Portfolio
 
-[Live portfolio]([https://elloo.github.io](https://elloo.github.io/))
+[Live portfolio](https://elloo.github.io/)
 
 [Portfolio GitHub](https://github.com/elloo/portfolio)
 
@@ -15,9 +15,35 @@ This portfolio is a web page designed to showcase the full-stack web development
 
 ### Sitemap
 
-This portfolio is contained entirely within one web page as seen in this [this](/docs/sitemap.xml).XML sitemap.
+This portfolio is contained entirely within one web page as seen in this [this](/docs/sitemap.xml) XML sitemap.
 
+### Screenshots
 
+#### Desktop
+
+![desktop](/Users/ewelinloo/Documents/Studies/EweLinLoo_A1-3/docs/desktop.png)
+
+#### Tablet
+
+![](/Users/ewelinloo/Documents/Studies/EweLinLoo_A1-3/docs/tablet.png)
+
+#### Mobile
+
+![](/Users/ewelinloo/Documents/Studies/EweLinLoo_A1-3/docs/mobile.png)
+
+### Target Audience
+
+This portfolio is intended for potential employees, recruiters and collaborators.
+
+### Tech stack
+
+This project was built with:
+
+- HTML5
+- CSS3
+- JavaScript
+- GitHub
+- GitHub Pages
 
 ## Short Answer Questions
 
