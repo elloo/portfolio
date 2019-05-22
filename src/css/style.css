@@ -174,11 +174,6 @@ nav {
     transform: rotate(-10deg);
 }
 
-#city0:hover,
-#city1:hover {
-    transform: rotate(0deg);
-}
-
 td {
     padding: 0 10px;
 }
