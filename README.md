@@ -9,6 +9,8 @@ This portfolio is a web page designed to showcase the full-stack web development
 ## Functionality / Features
 
 - All artwork 100% handmade by Ewe Lin Loo
+- Tabbed navbar emulates the aesthetic of physical folders
+  - White borders around images imitate stickers on folders
 - Desktop version has a z-index stacked layout
 - Mobile version adapts to a continuous, flexbox layout
   - This prevents unnecessary scrolling back up to reach the nav
@@ -33,7 +35,7 @@ This portfolio is contained entirely within one web page as seen in this [this](
 
 ### Target Audience
 
-This portfolio is intended for potential employees, recruiters and collaborators.
+This portfolio is intended for potential employers, recruiters and collaborators.
 
 ### Tech stack
 
@@ -44,6 +46,20 @@ This project was built with:
 - JavaScript
 - GitHub
 - GitHub Pages
+
+## Design Process
+
+The first thing I did was start a Trello board that would be added to and editted throughout the design and coding processes. At the moment of writing, this is what it looks like:
+
+![Near completed Trello board](/docs/trello.png)
+
+I then went to Pinterest to start collecting inspirational images for my mood board. I kept my coded art at the back of my mind as I knew I wanted to use them as decorations.
+
+![Pinterest mood board top](/docs/pinterest1.png)
+
+![Pinterest mood board bottom](/docs/pinterest.png)
+
+ d
 
 ## Short Answer Questions
 
