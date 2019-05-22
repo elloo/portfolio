@@ -21,15 +21,15 @@ This portfolio is contained entirely within one web page as seen in this [this](
 
 #### Desktop
 
-![desktop](/Users/ewelinloo/Documents/Studies/EweLinLoo_A1-3/docs/desktop.png)
+![Portfolio desktop screenshot](/docs/desktop.png)
 
 #### Tablet
 
-![](/Users/ewelinloo/Documents/Studies/EweLinLoo_A1-3/docs/tablet.png)
+![Portfolio tablet screenshot](/docs/tablet.png)
 
 #### Mobile
 
-![](/Users/ewelinloo/Documents/Studies/EweLinLoo_A1-3/docs/mobile.png)
+![Portfolio tablet mobile](/docs/mobile.png)
 
 ### Target Audience
 
