@@ -1,4 +1,21 @@
-- Changed mobile layout from original wireframe to avoid scrolling up and down to reach navbar. Replaced with continuous scroll layout.
+# My Portfolio
+
+[Live portfolio]([https://elloo.github.io](https://elloo.github.io/))
+
+[Portfolio GitHub](https://github.com/elloo/portfolio)
+
+This portfolio is a web page designed to showcase the full-stack web development skills of Ewe Lin Loo.
+
+## Functionality / Features
+
+- All artwork 100% handmade by Ewe Lin Loo
+- Desktop version has a z-index stacked layout
+- Mobile version adapts to a continuous, flexbox layout
+  - This prevents unnecessary scrolling back up to reach the nav
+
+### Sitemap
+
+This portfolio is contained entirely within one web page as seen in this [this](/docs/sitemap.xml).XML sitemap.
 
 
 
