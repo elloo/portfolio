@@ -90,15 +90,49 @@ In the "Contact" page, the contact form in the wireframe has been removed and re
 There were a few usability considerations to note:
 
 1. The desktop layout and navigation would not be suitable for the tablet or mobile versions. This is because users are able to switch sections by clicking on the colour of that section. On mobile or tablet, they may accidentally tap on the coloured portion of a different section and switch  to that section. Additionally, this would make it more difficult for users to scroll down and up the page - particularly if they are right-handed.
-2. The navbar is not fixed to the top of the screen. This is unnecessary as the desktop section has minimal vertical scrolling and using a mobile / tablet to scroll back up to the navigation is quick and easy.
-3. The original contact form included in the wireframe has been removed from the final design. This is because the form would have relied on a `mailto` link, which would only work correctly if the user had adjusted the browser settings appropriately.
-4. The social media icons on the tablet / mobile versions have been contained within the contact section rather than having them in a fixed position. This allows for more content space on smaller screens.
+2. I wanted to remove any vertical scrolling on the desktop version, however in order to easily make it responsive I used fractional / `fr` units. This left a slight amount of vertical scrolling.
+3. The navbar is not fixed to the top of the screen. This is unnecessary as the desktop section has minimal vertical scrolling and using a mobile / tablet to scroll back up to the navigation is quick and easy.
+4. The original contact form included in the wireframe has been removed from the final design. This is because the form would have relied on a `mailto` link, which would only work correctly if the user had adjusted the browser settings appropriately.
+5. The social media icons on the tablet / mobile versions have been contained within the contact section rather than having them in a fixed position. This allows for more content space on smaller screens.
 
 ## Project plan & timeline
 
+**Day 1** 
+
+- Created Trello board to be used throughout project
+- Created mood board
+- Found fonts
+- Tested z-index navigation idea
+- Created wireframes
+
+**Day 2**
+
+- Initial coding of wireframes using `position: relative` and `position: absolute`
+- Added initial version of content with placeholder images
+
+**Day 3**
+
+- Added CSS Grid to allow for uniform design
+
+**Day 4**
+
+- Add Flexbox and media breaks to achieve responsive design
+- Replace placeholder images with true content
+- Edit written content
+
+**Day 5 - 6**
+
+- Finished documentation
+- Add favicon
+- Played with adding animations
+- Adjusted website according to feedback on Twitter and from friends.
+
+**Day 7**
+
+- Final check of project
+- Presentation slides
+
 ## Short Answer Questions
-
-
 
 **Describe key events in the development of the internet from the 1980s to today (max. 150 words)**
 
