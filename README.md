@@ -49,11 +49,7 @@ This project was built with:
 
 ## Design Process
 
-The first thing I did was start a Trello board that would be added to and editted throughout the design and coding processes. At the moment of writing, this is what it looks like:
-
-![Near completed Trello board](docs/trello.png)
-
-I then went to Pinterest to start collecting inspirational images for my mood board. I kept my coded art at the back of my mind as I knew I wanted to use them as decorations.
+The first thing I did was start a Trello board that would be added to and edited throughout the design and coding processes. I then went to Pinterest to start collecting inspirational images for my mood board. I kept my coded art at the back of my mind as I knew I wanted to use them as decorations.
 
 ![Pinterest mood board top](docs/pinterest1.png)
 
@@ -67,7 +63,9 @@ Once I had the mood board and colour scheme, I felt that a calligraphic script w
 
 ![Website fonts](docs/fonts.png)
 
-I then came up with the idea of building a navigation system that relied on the JavaScript `onclick` function and z-index. [This](https://codepen.io/nyrnzn/pen/jVyZbE) CodePen showed me that what I had in mind was doable. I felt that this unique navigation would give my website design some originality.
+I then came up with the idea of building a navigation system that relied on the JavaScript `onclick` function and z-index. [This](https://codepen.io/nyrnzn/pen/jVyZbE) CodePen showed me that what I had in mind was doable.![Dynamically changing z-index CodePen](docs/codepen.png)
+
+ I felt that this unique navigation would give my website design some originality.
 
 ### Wireframes
 
@@ -132,10 +130,42 @@ There were a few usability considerations to note:
 - Final check of project
 - Presentation slides
 
-## Short Answer Questions
+### Trello Screenshot
+
+![Near completed Trello board](docs/trello.png)
+
+## Short Answer Q&A
 
 **Describe key events in the development of the internet from the 1980s to today (max. 150 words)**
 
+Usenet was launched in 1980 and represents the earliest use of the internet as a public news source.
+
+On January 1, 1983, Transmission Control Protocol and Internet Protocol (TCP/IP) was adopted. Researchers then began to assemble the "network of networks" that became the modern internet.
+
+In 1984, the Domain Name System (DNS) was introduced. This allowed for meaningful names rather than numerical addresses of websites.
+
+In the late 1980s, commercial Internet Service Providers (ISPs) began to emerge. 
+
+In 1990, the internet became the World Wide Web (WWW). This linked together hypertext documents that could be accessed from any computer on the network. British computer scientist Tim Berners-Lee was behind this advancement. He also introduced the first web browser and web page.
+
+Since the mid-1990s, the internet has profoundly impacted culture, commerce and technology. Most notable is the invention of near-instant communication (electronic mail, Voice over Internet Protocol calls, etc).
+
 **Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)**
 
+A domain refers to the address that you type in when browsing the internet. For example, "github.com" or "google.com". It is simply an easy way to remember the Internet Protocol (IP) address of a website. 
+
+The internet uses IP addresses to direct and connect traffic. Normally, an IP address consists of four numbers separated by periods. 
+
+A web server stores, processes and delivers web pages to clients (typically a web browser). It does this by handling World Wide Web (WWW) requests for IP addresses. This communication between web server and clients is done through Hypertext Transfer Protocol (HTTP). HTTP can both serve and retrieve content (through form submission) to and from clients.
+
+A web browser is used to initiate HTTP communication with a request for a specific resource from a web server. Each resource has a distinct Uniform Resource Locator (URL). The browser displays the resource if it is found.
+
 **Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)**
+
+The web browser is one powerful aspect of the development of internet technologies. By allowing users access to the World Wide Web, it has contributed to the world today in a myriad of ways. 
+
+The web browser has evolved in astonishing ways. When they were first invented, they only retrieved plain text documents. This was useful for military and academic purposes, particularly for keeping up-to-date with the news.
+
+Over time, the range of media formats that can be received by a browser increased. This means that rather than simply being text-based, web browsers now allow for images and videos to be shown. Most recently, browsers have become capable of playing 3D videos and can receive movement data from mobile devices. 
+
+In addition, CSS was introduced to create increasingly more complex web designs. As HTML and CSS have grown, so have the browser tools used by web developers and designers. 
