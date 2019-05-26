@@ -123,16 +123,19 @@ There were a few usability considerations to note:
 - Finished documentation
 - Add favicon
 - Played with adding animations
-- Adjusted website according to feedback on Twitter and from friends.
+- Conducted informal usability testing with friends and over Twitter
+- Adjusted website according to feedback
 
 **Day 7**
 
 - Final check of project
 - Presentation slides
 
-### Trello Screenshot
+### Trello Screenshots
 
 ![Near completed Trello board](docs/trello.png)
+
+![Trello description](docs/trello_desc.png)
 
 ## Short Answer Q&A
 
